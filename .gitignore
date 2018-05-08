@@ -1,0 +1,6 @@
+media/
+__pycache__
+
+pi_detection/train_images*
+
+pi_detection/checkpoints
