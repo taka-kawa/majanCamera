@@ -86,7 +86,7 @@ class Detector:
         # 返すjsonを作成
         result = {"pis":[]}
         for i, label_num in enumerate(top_label_indices):
-            result['pis'].append({"name":self.voc_classes[int(label_num)],
+            result['pis'].append({"name":self.voc_classes[int(label_num)-1],
                                   "xmin":top_xmin[i],
                                   "ymin":top_ymin[i],
                                   "xmax":top_xmax[i],
