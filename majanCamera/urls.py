@@ -18,7 +18,8 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/v1/', include('api.urls'))
+    path('api/v1/', include('api.urls')),
+    path('hook/', include('hook.urls'))
 ]
 
 from django.conf import settings
