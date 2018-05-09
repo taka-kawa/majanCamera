@@ -18,7 +18,7 @@ chun:中
 
 ## エンドポイント
 
-### http://t_kawa:8080/api/v1/detection
+### http://t_kawa:49164/api/v1/detection
 
 - 牌を検出する
 - 形式
